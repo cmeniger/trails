@@ -1,0 +1,43 @@
+{
+  "name": "trails-cme",
+  "version": "0.0.0",
+  "description": "Test framework",
+  "homepage": "trails.local",
+  "author": {
+    "name": "cmeniger",
+    "email": "cmeniger@gmail.com",
+    "url": "https://github.com/cmeniger/trails"
+  },
+  "main": "index.js",
+  "keywords": [
+    "trails/webpack/mongodb/react",
+    "trails",
+    "trailsjs"
+  ],
+  "dependencies": {
+    "trailpack-footprints": "^2.0.0",
+    "trailpack-hapi": "^2.2.0",
+    "trailpack-repl": "v2-latest",
+    "trailpack-router": "v2-latest",
+    "trailpack-waterline": "^2.0.0-rc2",
+    "trails": "v2-latest",
+    "winston": "^2.3"
+  },
+  "devDependencies": {
+    "eslint": "^2.11",
+    "eslint-config-trails": "^2",
+    "mocha": "^2.5",
+    "supertest": "^1.2"
+  },
+  "scripts": {
+    "test": "eslint . && mocha"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "eslintConfig": {
+    "extends": "trails"
+  },
+  "repository": "git@github.com:cmeniger/www.git",
+  "license": "MIT"
+}
